@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Anton&family=Cabin&family=Dancing+Script:wght@400;600&family=Jost&family=Kaushan+Script&family=Lobster&family=Permanent+Marker&family=Sansita+Swashed&display=swap');*
+{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: aqua;
+}
+
+nav{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.brand img{
+    height: 40px;
+    padding: 0 8px;
+}
+
+.container{
+    min-height: 75vh;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myprogressbar{
+    width: 80vw;
+
+}
