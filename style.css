@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Anton&family=Cabin&family=Dancing+Script:wght@400;600&family=Jost&family=Kaushan+Script&family=Lobster&family=Permanent+Marker&family=Sansita+Swashed&display=swap');*
-{
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Anton&family=Cabin&family=Dancing+Script:wght@400;600&family=Jost&family=Kaushan+Script&family=Lobster&family=Permanent+Marker&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Anton&family=Cabin&family=Caveat:wght@700&family=Dancing+Script:wght@500&family=Jost&family=Kaushan+Script&family=Lobster&family=Permanent+Marker&family=Sansita+Swashed&display=swap');
+
+*{
     padding: 0px;
     margin: 0px;
     
@@ -9,9 +11,9 @@ body{
     background-color: aqua;
 }
 
-nav{
+/* nav{
     font-family: 'Sansita Swashed', cursive;
-}
+} */
 
 nav ul{
     display: flex;
@@ -24,12 +26,14 @@ nav ul{
 
 nav ul li{
     padding: 0 15px;
+    font-family: 'Caveat', cursive;
 }
 
 .brand{
     display: flex;
     align-items: center;
     font-weight: bolder;
+    font-family: 'Sansita Swashed', cursive;
 }
 .brand img{
     height: 40px;
@@ -38,18 +42,33 @@ nav ul li{
 
 .container{
     min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
 }
 
 .bottom{
     position: sticky;
-    height: 130px;
+    height: 80px;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: wheat;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 5px 14px;
+}
+
+.icons i{
+    cursor: pointer;
 }
 
 #myprogressbar{
     width: 80vw;
-
 }
